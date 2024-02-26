@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
       </head>
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
