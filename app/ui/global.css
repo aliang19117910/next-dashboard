@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: '微软雅黑', 'Arial', sans-serif; /* 添加对中文的支持 */
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
